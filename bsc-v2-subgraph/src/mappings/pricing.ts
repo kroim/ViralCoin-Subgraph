@@ -43,7 +43,7 @@ export function getEthPriceInUSD(): BigDecimal {
 let WHITELIST: string[] = [
   '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // WBNB
   '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', // DAI
-  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+  '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d', // USDC
   '0x55d398326f99059ff775485246999027b3197955', // USDT
   '0xe9e7cea3dedca5984780bafc599bd69add087d56', // BUSD
   '0x23396cf899ca06c4472205fc903bdb4de249d6fc', // UST

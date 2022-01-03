@@ -81,6 +81,7 @@ export class TokenDefinition {
 
   // Helper for hardcoded tokens
   static fromAddress(tokenAddress: Address) : TokenDefinition | null {
+    return null;
     let staticDefinitions = this.getStaticDefinitions()
     let tokenAddressHex = tokenAddress.toHexString()
 
