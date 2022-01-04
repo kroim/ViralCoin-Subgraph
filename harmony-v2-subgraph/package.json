@@ -1,0 +1,22 @@
+{
+  "name": "uniswap-v2-subgraph",
+  "version": "1.0.0",
+  "repository": "https://github.com/graphprotocol/uniswap-v2-subgraph",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "codegen": "graph codegen --output-dir src/types/",
+    "build": "graph build",
+    "create-harmony": "graph create --node https://graph.t.hmny.io:8020 chenxiwang177/visalswap-harmony",
+    "deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs http://graph.t.hmny.io:5001 chenxiwang177/visalswap-harmony"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.16.0",
+    "@graphprotocol/graph-ts": "^0.16.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  }
+}
