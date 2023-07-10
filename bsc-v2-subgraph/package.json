@@ -5,9 +5,9 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
-    "auth": "graph auth https://api.thegraph.com/deploy/ 57dc9a69aeed4f4f855d5a4b9cd3a5b2",
     "build": "graph build",
-    "deploy": "graph deploy chenxiwang177/visalswap-bsc2 --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug"
+    "auth": "graph auth https://api.thegraph.com/deploy/ 57dc9a69aeed4f4f855d5a4b9cd3a5b2",
+    "deploy": "graph deploy chenxiwang177/viralswap-bsc --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
